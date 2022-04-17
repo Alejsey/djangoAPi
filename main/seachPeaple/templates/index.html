@@ -1,0 +1,17 @@
+<html>
+{% load bootstrap4 %}
+<title>
+    Проект
+</title>
+{% bootstrap_css %}
+{% bootstrap_javascript jquery='full' %}
+<body>
+
+
+    <form class="col-xl-5 col-lg-6 col-md-8 col-sm-10 mx-auto text-center form p-4" action={%  url 'resoults' %}>
+        <input class="form-control mr-sm-2" name="name" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Поиск</button>
+    </form>
+
+</body>
+</html>

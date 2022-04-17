@@ -1,0 +1,2 @@
+ c:/Users/alex/OneDrive/Документы/projects/djangoAPi/.venv/Scripts/Activate.ps1
+активация вирт окружение
